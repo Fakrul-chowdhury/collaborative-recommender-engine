@@ -1,0 +1,36 @@
+{
+  "accuracy_weight": 0.7,
+  "n_trials": 60,
+  "n_validation_users": 1128,
+  "validation_window": [
+    "2011-10-15 00:00:00",
+    "2011-11-12 00:00:00"
+  ],
+  "popularity_reference": {
+    "n_users": 1128,
+    "recall@10": 0.014898357524352635,
+    "precision@10": 0.02907801418439716,
+    "ndcg@10": 0.030116247574568256,
+    "diversity": 0.8780883728992037,
+    "coverage": 0.01716549295774648
+  },
+  "als_best_params": {
+    "factors": 68,
+    "regularization": 0.5472709769132837,
+    "iterations": 28,
+    "alpha": 0.2672855712151947,
+    "weighting": "bm25"
+  },
+  "als_best_objective": 1.7040695290175192,
+  "als_best_validation_metrics": {
+    "recall@10": 0.0432950485203074,
+    "precision@10": 0.059219858156028364,
+    "ndcg@10": 0.0689818183728006,
+    "diversity": 0.8150409630705594,
+    "coverage": 0.2990757042253521
+  },
+  "content_best_params": {
+    "category_weight": 0.0,
+    "popularity_weight": 16.0
+  }
+}
